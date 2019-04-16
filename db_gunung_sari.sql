@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2019 at 12:29 PM
+-- Generation Time: Apr 16, 2019 at 12:31 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 5.6.38
 
@@ -40,8 +40,7 @@ CREATE TABLE `agen_marketing` (
 --
 
 INSERT INTO `agen_marketing` (`kode`, `nama`, `bank`, `no_rek`) VALUES
-('MK001', 'Naning', 'naning@gmail.com', 'Wonokromo'),
-('X001', 'Tridjaya', 'BCA', '16855524');
+('A0001', 'PT.MBB', 'B.BCA', '542784');
 
 -- --------------------------------------------------------
 
@@ -171,9 +170,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id_user`, `foto`, `nama`, `username`, `password`, `agen_marketing`, `email`, `telp`, `level_user`) VALUES
-(0, 'HARD_DISK_PC_1TB_SEAGATE_SKYHAWK_scaled.jpg', 'Purwo', 'putnow', 'ea2dbba9fda5c42f8bf425d8b19e9045', 'tridjaya', 'tridjaya@gmail.com', '487984548', 'member'),
+(0, '', 'admin2', 'admin2', '21232f297a57a5a743894a0e4a801fc3', 'tridjaya', 'putnow@yahoo.com', '7845498746', 'admin'),
 (2, '', 'admin', 'admin', 'c132115067a893c243184799a7be24b1', 'tridjaya', 'tridjaya@kartika.com', '0165444', 'admin'),
-(57987578, 'marina.jpg', 'member', 'member', 'aa08769cdcb26674c6706093503ff0a3', 'tridjaya', 'member@tridjaya.com', '085789788', 'member');
+(115448745, 'HARD_DISK_PC_1TB_SEAGATE_SKYHAWK_scaled.jpg', 'Purwo Hadi', 'member', 'aa08769cdcb26674c6706093503ff0a3', 'PT.TRIDJAYA', 'tk@gmail.com', '186448745', 'member'),
+(555548784, 'HARD_DISK_PC_1TB_SEAGATE_SKYHAWK_scaled.jpg', 'darius', 'darius', '90a624f1f9653941eba3b8589f75c041', 'pt.ems', 'dariustk@yahoo.com', '8454546545', 'member');
 
 --
 -- Indexes for dumped tables
